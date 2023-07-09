@@ -21,7 +21,7 @@ function CustomHeader() {
 
   const test = [
     [
-      ["", "src/Index/images/vrLab/Image1.png"],
+      ["", "./src/Index/images/vrLab/Image1.png"],
       ["", "src/Index/images/vrLab/Image2.png"],
       ["", "src/Index/images/vrLab/Image3.png"],
       ["", "src/Index/images/vrLab/Image4.png"],
@@ -30,7 +30,7 @@ function CustomHeader() {
       ["", "src/Index/images/vrLab/Image7.png"],
     ],
     [
-      ["", "src/Index/images/church/Image5.png"],
+      ["", "/src/Index/images/church/Image5.png"],
       ["", "src/Index/images/church/Image8.png"],
       ["", "src/Index/images/church/Image11.png"],
       ["", "src/Index/images/church/Image12.png"],
@@ -38,13 +38,13 @@ function CustomHeader() {
       ["", "src/Index/images/church/Image14.png"],
     ],
     [
-      ["", "src/Index/images/house1/Imagen10.png"],
+      ["", "./images/house1/Imagen10.png"],
       ["", "src/Index/images/house1/Imagen1_000.png"],
       ["", "src/Index/images/house1/Imagen2_000.png"],
       ["", "src/Index/images/house1/Imagen3_000.png"],
     ],
     [
-      ["", "src/Index/images/house2/Imagen2_001.png"],
+      ["", "/images/house2/Imagen2_001.png"],
       ["", "src/Index/images/house2/Imagen3_001.png"],
       ["", "src/Index/images/house2/Imagen5_001.png"],
       ["", "src/Index/images/house2/Imagen6_002.png"],
@@ -54,7 +54,7 @@ function CustomHeader() {
       ["", "src/Index/images/house2/Imagen10_000.png"],
     ],
     [
-      ["", "src/Index/images/house3/Imagen5_000.png"],
+      ["", "images/house3/Imagen5_000.png"],
       ["", "src/Index/images/house3/Imagen6_000.png"],
       ["", "src/Index/images/house3/Imagen7_000.png"],
     ],

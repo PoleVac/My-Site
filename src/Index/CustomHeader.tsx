@@ -21,42 +21,126 @@ function CustomHeader() {
 
   const test = [
     [
-      ["", "./src/Index/images/vrLab/Image1.png"],
-      ["", "src/Index/images/vrLab/Image2.png"],
-      ["", "src/Index/images/vrLab/Image3.png"],
-      ["", "src/Index/images/vrLab/Image4.png"],
-      ["", "src/Index/images/vrLab/Image5.png"],
-      ["", "src/Index/images/vrLab/Image6.png"],
-      ["", "src/Index/images/vrLab/Image7.png"],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/vrLab/Image1.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/vrLab/Image2.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/vrLab/Image3.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/vrLab/Image4.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/vrLab/Image5.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/vrLab/Image6.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/vrLab/Image7.png?raw=true",
+      ],
     ],
     [
-      ["", "/src/Index/images/church/Image5.png"],
-      ["", "src/Index/images/church/Image8.png"],
-      ["", "src/Index/images/church/Image11.png"],
-      ["", "src/Index/images/church/Image12.png"],
-      ["", "src/Index/images/church/Image13.png"],
-      ["", "src/Index/images/church/Image14.png"],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/church/Image5.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/church/Image8.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/church/Image11.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/church/Image12.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/church/Image13.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/church/Image14.png?raw=true",
+      ],
     ],
     [
-      ["", "./images/house1/Imagen10.png"],
-      ["", "src/Index/images/house1/Imagen1_000.png"],
-      ["", "src/Index/images/house1/Imagen2_000.png"],
-      ["", "src/Index/images/house1/Imagen3_000.png"],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house1/Imagen10.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house1/Imagen1_000.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house1/Imagen2_000.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house1/Imagen3_000.png?raw=true",
+      ],
     ],
     [
-      ["", "/images/house2/Imagen2_001.png"],
-      ["", "src/Index/images/house2/Imagen3_001.png"],
-      ["", "src/Index/images/house2/Imagen5_001.png"],
-      ["", "src/Index/images/house2/Imagen6_002.png"],
-      ["", "src/Index/images/house2/Imagen7_002.png"],
-      ["", "src/Index/images/house2/Imagen7_004.png"],
-      ["", "src/Index/images/house2/Imagen9_000.png"],
-      ["", "src/Index/images/house2/Imagen10_000.png"],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house2/Imagen2_001.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house2/Imagen3_001.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house2/Imagen5_001.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house2/Imagen6_002.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house2/Imagen7_002.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house2/Imagen7_004.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house2/Imagen9_000.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house2/Imagen10_000.png?raw=true",
+      ],
     ],
     [
-      ["", "images/house3/Imagen5_000.png"],
-      ["", "src/Index/images/house3/Imagen6_000.png"],
-      ["", "src/Index/images/house3/Imagen7_000.png"],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house3/Imagen5_000.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house3/Imagen6_000.png?raw=true",
+      ],
+      [
+        "",
+        "https://github.com/PoleVac/My-Site/blob/main/src/Index/images/house3/Imagen7_000.png?raw=true",
+      ],
     ],
   ];
 
@@ -171,7 +255,7 @@ function CustomHeader() {
             </div>
             <div className="col">
               <img
-                src="/src/Index/images/Profile/profile.jpg"
+                src="https://github.com/PoleVac/My-Site/blob/main/src/Index/images/Profile/profile.jpg?raw=true"
                 style={{ width: 400, height: 400, borderRadius: 400 / 2 }}
               />
             </div>

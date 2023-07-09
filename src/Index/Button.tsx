@@ -217,8 +217,7 @@ function Button() {
                     "https://www.linkedin.com/in/alejandro-pulido-57a8b6268/recent-activity/all/";
                   break;
                 case 1:
-                  location.href =
-                    "https://youtube.com/@alejandropulidoruiz9690";
+                  location.href = "https://polevac.github.io/My-Site/";
                   console.log("1");
                   break;
                 case 2:

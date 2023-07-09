@@ -17,7 +17,10 @@ function CustomHeader() {
     "https://www.youtube.com/embed/8fPZEB5XdAI",
   ];
 
-  const vrVideos = ["https://www.youtube.com/embed/RVRH89L1r5g"];
+  const vrVideos = [
+    "https://www.youtube.com/embed/RVRH89L1r5g",
+    "https://www.youtube.com/embed/maKZyH1TCts",
+  ];
 
   const test = [
     [
@@ -297,9 +300,9 @@ function CustomHeader() {
             filter: "drop-shadow(2px 4px 6px black)",
           }}
         >
-          {vrVideos.map((video) => (
+          {vrVideos.map((videos) => (
             <>
-              <VideoDisplay video={video} />
+              <VideoDisplay video={videos} />
             </>
           ))}
         </div>
@@ -414,7 +417,7 @@ function CustomHeader() {
                 className="btn btn-outline-info"
                 href="mailto:alejandro.pulido.ruiz@gmail.com"
               >
-                Send Me an email!
+                alejandro.pulido.ruiz@gmail.com
               </a>
             </div>
             <div className="p-2">{now.getFullYear()}</div>

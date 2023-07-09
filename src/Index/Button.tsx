@@ -29,7 +29,7 @@ function Button() {
   const [{ x, y, opacity }, api] = useSpring(
     () => ({
       x: 0,
-      y: 0,
+      y: 100,
       opacity: 0,
     }),
     []

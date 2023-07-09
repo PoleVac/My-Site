@@ -21,42 +21,42 @@ function CustomHeader() {
 
   const test = [
     [
-      ["", "images/vrLab/Image1.png"],
-      ["", "images/vrLab/Image2.png"],
-      ["", "images/vrLab/Image3.png"],
-      ["", "images/vrLab/Image4.png"],
-      ["", "images/vrLab/Image5.png"],
-      ["", "images/vrLab/Image6.png"],
-      ["", "images/vrLab/Image7.png"],
+      ["", "./images/vrLab/Image1.png"],
+      ["", "./images/vrLab/Image2.png"],
+      ["", "./images/vrLab/Image3.png"],
+      ["", "./images/vrLab/Image4.png"],
+      ["", "./images/vrLab/Image5.png"],
+      ["", "./images/vrLab/Image6.png"],
+      ["", "./images/vrLab/Image7.png"],
     ],
     [
-      ["", "images/church/Image5.png"],
-      ["", "images/church/Image8.png"],
-      ["", "images/church/Image11.png"],
-      ["", "images/church/Image12.png"],
-      ["", "images/church/Image13.png"],
-      ["", "images/church/Image14.png"],
+      ["", "./images/church/Image5.png"],
+      ["", "./images/church/Image8.png"],
+      ["", "./images/church/Image11.png"],
+      ["", "./images/church/Image12.png"],
+      ["", "./images/church/Image13.png"],
+      ["", "./images/church/Image14.png"],
     ],
     [
-      ["", "images/house1/Imagen10.png"],
-      ["", "images/house1/Imagen1_000.png"],
-      ["", "images/house1/Imagen2_000.png"],
-      ["", "images/house1/Imagen3_000.png"],
+      ["", "./images/house1/Imagen10.png"],
+      ["", "./images/house1/Imagen1_000.png"],
+      ["", "./images/house1/Imagen2_000.png"],
+      ["", "./images/house1/Imagen3_000.png"],
     ],
     [
-      ["", "images/house2/Imagen2_001.png"],
-      ["", "images/house2/Imagen3_001.png"],
-      ["", "images/house2/Imagen5_001.png"],
-      ["", "images/house2/Imagen6_002.png"],
-      ["", "images/house2/Imagen7_002.png"],
-      ["", "images/house2/Imagen7_004.png"],
-      ["", "images/house2/Imagen9_000.png"],
-      ["", "images/house2/Imagen10_000.png"],
+      ["", "./images/house2/Imagen2_001.png"],
+      ["", "./images/house2/Imagen3_001.png"],
+      ["", "./images/house2/Imagen5_001.png"],
+      ["", "./images/house2/Imagen6_002.png"],
+      ["", "./images/house2/Imagen7_002.png"],
+      ["", "./images/house2/Imagen7_004.png"],
+      ["", "./images/house2/Imagen9_000.png"],
+      ["", "./images/house2/Imagen10_000.png"],
     ],
     [
-      ["", "images/house3/Imagen5_000.png"],
-      ["", "images/house3/Imagen6_000.png"],
-      ["", "images/house3/Imagen7_000.png"],
+      ["", "./images/house3/Imagen5_000.png"],
+      ["", "./images/house3/Imagen6_000.png"],
+      ["", "./images/house3/Imagen7_000.png"],
     ],
   ];
 
@@ -171,7 +171,7 @@ function CustomHeader() {
             </div>
             <div className="col">
               <img
-                src="images/profile/profile.jpg"
+                src="./images/profile/profile.jpg"
                 style={{ width: 400, height: 400, borderRadius: 400 / 2 }}
               />
             </div>

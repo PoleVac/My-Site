@@ -18,6 +18,7 @@ function CustomHeader() {
   ];
 
   const vrVideos = [
+    "https://www.youtube.com/embed/NqrdJpz50ZA",
     "https://www.youtube.com/embed/RVRH89L1r5g",
     "https://www.youtube.com/embed/maKZyH1TCts",
   ];

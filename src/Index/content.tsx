@@ -2,18 +2,18 @@ interface Items {
   num: number;
   content: Array<string[]>;
   title: string;
+  size?: number;
 }
 
-function Content({ num, content, title }: Items) {
+function Content({ num, content, title, size = 1 }: Items) {
   const first = content[0];
-  var numTemp = 1;
 
   return (
     <>
       <div
         id={"carouselDisplay" + num.toString()}
         className="carousel slide"
-        style={{ margin: 15, width: 560 * numTemp, height: 315 * numTemp }}
+        style={{ margin: 15, width: 560 * size, height: 315 * size }}
       >
         <div className="carousel-indicators">
           {content.map((notUsed, index) => (

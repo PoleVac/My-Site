@@ -1,9 +1,9 @@
 interface Video {
   video: string;
+  size?: number;
 }
 
-function VideoDisplay({ video }: Video) {
-  var temp = 1;
+function VideoDisplay({ video, size = 1 }: Video) {
   return (
     <>
       <div
@@ -12,8 +12,8 @@ function VideoDisplay({ video }: Video) {
         }}
       >
         <iframe
-          width={560 * temp}
-          height={315 * temp}
+          width={560 * size}
+          height={315 * size}
           allowFullScreen
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           src={video}

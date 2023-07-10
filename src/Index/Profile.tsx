@@ -1,4 +1,8 @@
-function Profile() {
+interface Props {
+  size?: number;
+}
+
+function Profile({ size = 1 }: Props) {
   const me = new Date("January 10,01");
   let now = new Date(Date.now());
   let age = now.getFullYear() - me.getFullYear();
@@ -43,7 +47,11 @@ function Profile() {
         <div className="col">
           <img
             src="https://github.com/PoleVac/My-Site/blob/main/src/Index/images/Profile/profile.jpg?raw=true"
-            style={{ width: 400, height: 400, borderRadius: 400 / 2 }}
+            style={{
+              width: 400 * size,
+              height: 400 * size,
+              borderRadius: 400 / 2,
+            }}
           />
         </div>
       </div>

@@ -2,8 +2,11 @@ import Content from "./content";
 import VideoDisplay from "./VideoDisplay";
 import Profile from "./Profile";
 
-function CustomHeader() {
-  const me = new Date("January 10,01");
+interface Props {
+  size?: number;
+}
+
+function CustomHeader({ size = 1 }: Props) {
   let now = new Date(Date.now());
 
   const renderVideos = [
@@ -219,7 +222,7 @@ function CustomHeader() {
             justifyContent: "space-evenly",
           }}
         >
-          <Profile />
+          <Profile size={size} />
         </div>
         <hr
           style={{
@@ -259,7 +262,7 @@ function CustomHeader() {
         >
           {vrVideos.map((videos) => (
             <>
-              <VideoDisplay video={videos} />
+              <VideoDisplay video={videos} size={size} />
             </>
           ))}
         </div>
@@ -299,7 +302,7 @@ function CustomHeader() {
         >
           {renderVideos.map((video) => (
             <>
-              <VideoDisplay video={video} />
+              <VideoDisplay video={video} size={size} />
             </>
           ))}
         </div>
@@ -339,7 +342,7 @@ function CustomHeader() {
         >
           {test.map((test, index) => (
             <>
-              <Content num={index} content={test} title="" />
+              <Content num={index} content={test} title="" size={size} />
             </>
           ))}
         </div>

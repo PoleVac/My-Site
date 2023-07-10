@@ -51,6 +51,7 @@ function Profile({ size = 1 }: Props) {
               width: 400 * size,
               height: 400 * size,
               borderRadius: 400 / 2,
+              filter: "drop-shadow(0 0 2em #ffffffaa)",
             }}
           />
         </div>

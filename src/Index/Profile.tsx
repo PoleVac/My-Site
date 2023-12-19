@@ -22,27 +22,27 @@ function Profile({ size = 1 }: Props) {
       >
         <div className="col">
           <p style={{ margin: 15, color: "white" }}>
-            <strong>
-              <h3>Alejandro Pulido ({age} M)</h3>
-            </strong>
-            <p>Software Developer (Mohawk College)</p>
-            <p>Solid Experience with REACT, HTML5, TSX, JS, CSS, PHP and SQL</p>
-            <p>
-              Used Unity & C# to create VR Experiences / Used Unreal Engine 5 to
-              render images and videos for multiple purposes
-            </p>
-            <p>
-              3D Modeling experience: Used Rhinoceros 3D for all my proyects,
-              now I'm learing Blender to expand my knowledge
-            </p>
-            <p>
-              Fast Learner and problem-solving oriented. All the videos, VR
-              experiences, images and this webpage was created in 6 months! I
-              have also learn on my own to assemble computers and 3D model!
-            </p>
 
-            <p>Fluent in both English and Spanish</p>
-          </p>
+<strong>
+    <h3>Alejandro Pulido ({age} M)</h3>
+</strong>
+<p>Software Developer (Mohawk College)</p>
+<p>Extensive experience with REACT, HTML5, TSX, JS, CSS, PHP, and SQL. Skilled in Python, with a keen interest in developing innovative software solutions.</p>
+<p>
+    Specialized in creating immersive VR experiences using Unity & C# and proficient in Unreal Engine 5 for rendering high-quality images and videos for diverse applications.
+</p>
+<p>
+    3D Modeling expertise: Proficient in Rhinoceros 3D for all my projects, currently expanding my skills by learning Blender. Assembled three desktop computers from scratch, showcasing my hands-on technical abilities.
+</p>
+<p>
+    Fast learner with a problem-solving orientation. Developed all videos, VR experiences, images, and this webpage within 6 months! Self-taught in computer assembly, 3D modeling, and various programming languages.
+</p>
+<p>
+    Fluent in both English and Spanish, bringing a global perspective to software development. Participated in a critical event at STAC 2023, representing Mohawk College's XR department, demonstrating commitment to continuous learning and industry engagement.
+</p>
+<p>
+    Experienced in collaborative projects and individual initiatives, consistently delivering innovative solutions. My role as an XR Developer involved creating user-friendly and interactive applications, highlighting my user-centric approach to software development.
+</p>
         </div>
         <div className="col">
           <img

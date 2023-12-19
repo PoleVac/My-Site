@@ -35,10 +35,10 @@ function Profile({ size = 1 }: Props) {
     3D Modeling expertise: Proficient in Rhinoceros 3D for all my projects, currently expanding my skills by learning Blender. Assembled three desktop computers from scratch, showcasing my hands-on technical abilities.
 </p>
 <p>
-    Fast learner with a problem-solving orientation. Developed all videos, VR experiences, images, and this webpage within 6 months! Self-taught in computer assembly, 3D modeling, and various programming languages.
+    A fast learner with a problem-solving orientation. Developed all videos, VR experiences, images, and this webpage within 6 months! Self-taught in computer assembly, 3D modeling, and various programming languages.
 </p>
 <p>
-    Fluent in both English and Spanish, bringing a global perspective to software development. Participated in a critical event at STAC 2023, representing Mohawk College's XR department, demonstrating commitment to continuous learning and industry engagement.
+    Fluent in both English and Spanish, bringing a global perspective to software development. Participated in a critical event at STAC 2023, representing Mohawk College's XR department, demonstrating my commitment to continuous learning and industry engagement.
 </p>
 <p>
     Experienced in collaborative projects and individual initiatives, consistently delivering innovative solutions. My role as an XR Developer involved creating user-friendly and interactive applications, highlighting my user-centric approach to software development.

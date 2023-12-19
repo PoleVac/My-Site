@@ -43,6 +43,7 @@ function Profile({ size = 1 }: Props) {
 <p>
     Experienced in collaborative projects and individual initiatives, consistently delivering innovative solutions. My role as an XR Developer involved creating user-friendly and interactive applications, highlighting my user-centric approach to software development.
 </p>
+            </p>
         </div>
         <div className="col">
           <img

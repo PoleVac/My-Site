@@ -1,3 +1,6 @@
+import Lang from "./Lang";
+import React, { useState } from "react";
+
 interface Props {
   size?: number;
 }
@@ -6,6 +9,11 @@ function Profile({ size = 1 }: Props) {
   const me = new Date("January 10,01");
   let now = new Date(Date.now());
   let age = now.getFullYear() - me.getFullYear();
+  const [lang, setLang] = useState("ESP");
+
+  function changeLang(Newlang: string) {
+    setLang(Newlang);
+  }
 
   return (
     <>
@@ -21,33 +29,38 @@ function Profile({ size = 1 }: Props) {
         }}
       >
         <div className="col">
+          <p>
+            <div className="text-center text-info">
+              <button
+                className="btn btn-outline-secondary text-light"
+                onClick={() => changeLang("ESP")}
+              >
+                Español
+              </button>{" "}
+              <button
+                className="btn btn-outline-secondary text-light"
+                onClick={() => changeLang("ENG")}
+              >
+                English
+              </button>{" "}
+              <button
+                className="btn btn-outline-secondary text-light"
+                onClick={() => changeLang("FRC")}
+              >
+                Français
+              </button>
+            </div>
+          </p>
           <p style={{ margin: 15, color: "white" }}>
-
-<strong>
-    <h3>Alejandro Pulido ({age} M)</h3>
-</strong>
-<p>Software Developer (Mohawk College)</p>
-<p>Extensive experience with REACT, HTML5, TSX, JS, CSS, PHP, and SQL. Skilled in Python, with a keen interest in developing innovative software solutions.</p>
-<p>
-    Specialized in creating immersive VR experiences using Unity & C# and proficient in Unreal Engine 5 for rendering high-quality images and videos for diverse applications.
-</p>
-<p>
-    3D Modeling expertise: Proficient in Rhinoceros 3D for all my projects, currently expanding my skills by learning Blender. Assembled three desktop computers from scratch, showcasing my hands-on technical abilities.
-</p>
-<p>
-    A fast learner with a problem-solving orientation. The development of all videos, VR experiences, images, and this webpage took me less than 6 months! Self-taught in computer assembly, 3D modeling, and various programming languages.
-</p>
-<p>
-    Fluent in both English and Spanish, bringing a global perspective to software development. Participated in a critical event at STAC 2023, representing Mohawk College's XR department, demonstrating my commitment to continuous learning and industry engagement.
-</p>
-<p>
-    Experienced in collaborative projects and individual initiatives, consistently delivering innovative solutions. My role as an XR Developer involved creating user-friendly and interactive applications, highlighting my user-centric approach to software development.
-</p>
-            </p>
+            <strong>
+              <h3>Alejandro Pulido ({age} M)</h3>
+            </strong>
+            <Lang lang={lang} />
+          </p>
         </div>
         <div className="col">
           <img
-            src="https://github.com/PoleVac/My-Site/blob/main/src/Index/images/Profile/profile.jpg?raw=true"
+            src="src/Index/images/Profile/IMG_0173.PNG"
             style={{
               width: 400 * size,
               height: 400 * size,

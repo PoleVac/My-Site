@@ -155,8 +155,28 @@ function CustomHeader({ size = 1 }: Props) {
     <div className="p-3 mb-2">
       <nav id="navbar-example2" className="navbar bg-dark px-3 mb-3 fixed-top">
         <a className="navbar-brand text-light" href="#">
-          Welcome!
+          <a
+            className="btn btn-outline-primary text-light"
+            href="mailto:alejandro.pulido.ruiz@gmail.com"
+          >
+            alejandro.pulido.ruiz@gmail.com
+          </a>{" "}
+          <a className="btn btn-outline-primary text-light" href="#">
+            +51 944-085-499
+          </a>{" "}
+          <a
+            className="btn btn-outline-danger text-light"
+            href="https://youtube.com/@alejandropulidoruiz9690"
+          >
+            Youtube
+          </a>
         </a>
+        {
+          //<h2 className="text-center text-info">
+          //        <strong>Alejandro Pulido</strong>
+          //      </h2>
+        }
+
         <ul className="nav nav-pills">
           <li className="nav-item">
             <a className="nav-link text-light" href="#scrollspyHeading1">
@@ -176,7 +196,7 @@ function CustomHeader({ size = 1 }: Props) {
               role="button"
               aria-expanded="false"
             >
-              Dropdown
+              More
             </a>
             <ul className="dropdown-menu">
               <li>
@@ -371,7 +391,7 @@ function CustomHeader({ size = 1 }: Props) {
         >
           <div className="d-flex align-items-center flex-column">
             <div className="p-2"> Alejandro Pulido</div>
-            <div className="p-2">+1 365 833 7549</div>
+            <div className="p-2">+51 944-085-499</div>
             <div className="p-2">
               <a
                 className="btn btn-outline-info"

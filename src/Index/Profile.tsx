@@ -60,7 +60,7 @@ function Profile({ size = 1 }: Props) {
         </div>
         <div className="col">
           <img
-            src="src/Index/images/Profile/IMG_0173.PNG"
+            src="https://raw.githubusercontent.com/PoleVac/My-Site/main/src/Index/images/Profile/IMG_0173.PNG"
             style={{
               width: 400 * size,
               height: 400 * size,
